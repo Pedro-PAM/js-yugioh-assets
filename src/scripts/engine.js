@@ -190,6 +190,7 @@ async function playAudio(status) {
 }
 
 function init() {
+    
     ShowHiddenCardFieldsImages(false);
 
     drawCards(5, state.playerSides.player1);
@@ -197,6 +198,7 @@ function init() {
 
     const bgm = document.getElementById("bgm");
     bgm.play();
+
 }
 
 init();

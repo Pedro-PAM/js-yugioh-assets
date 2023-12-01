@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="src/assets/favicon/Favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/reset.css">
 
     <link rel="stylesheet" href="./src/styles/buttons.css">
@@ -15,6 +17,9 @@
     <title>Yu-Gi-Oh Jo-ken-po edition</title>
 </head>
 <body>
+    <audio id="bgm" loop >
+        <source src="./src/assets/audios/passionateduelist.mp3" type="audio/mp3">
+    </audio>
     <div class="bg-video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4">
@@ -33,6 +38,11 @@
             <div class="card_details frame">
                 <p id="card-name"></p>
                 <p id="card-type"></p>
+            </div>
+
+            <div class="card_details frame">
+                <p>By Pedro Paulo </p>
+                <a href="https://www.youtube.com/watch?v=Ag3IhK81OG8">Música Original</a>
             </div>
 
         </div>
